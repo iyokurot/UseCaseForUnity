@@ -250,15 +250,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ba7d297fe3fdca43b3801f27bd7c907, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pos_x: 0
-  pos_y: 0
+  gimmick_id: 2
+  gimmick_type_id: 4000
+  pos_x: 1
+  pos_y: 2
   start_pos_x: 0
   start_pos_y: 0
-  end_pos_x: 0
-  end_pos_y: 0
-  time: 0
-  delay: 0
-  rotation: 0
+  end_pos_x: 5
+  end_pos_y: 5
+  time: 5
+  delay: 1
+  rotation: 100
+  beat_score: 10000
 --- !u!23 &294131177
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -606,6 +609,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ba7d297fe3fdca43b3801f27bd7c907, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gimmick_id: 0
+  gimmick_type_id: 0
   pos_x: 0
   pos_y: 0
   start_pos_x: 0
@@ -615,6 +620,7 @@ MonoBehaviour:
   time: 0
   delay: 0
   rotation: 0
+  beat_score: 0
 --- !u!23 &953788573
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -759,6 +765,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parentObject: {fileID: 548412660}
+  stage_id: 301
 --- !u!4 &1160242531
 Transform:
   m_ObjectHideFlags: 0

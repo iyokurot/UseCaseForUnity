@@ -39,6 +39,7 @@ public class JsonTestController : MonoBehaviour
         basJ.stage_gimmicks = jsonList.ToArray();
         string postJson = JsonUtility.ToJson(basJ);
         Debug.Log(postJson);
+        jsonList.Clear();
     }
 }
 
