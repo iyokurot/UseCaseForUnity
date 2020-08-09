@@ -6,6 +6,9 @@ using System.Text;
 using UnityEditor;
 using UnityEngine;
 
+/// <summary>
+/// JSONパース用クラスの自動生成エディター拡張
+/// </summary>
 public class JsonResponceCreate : EditorWindow {
     /// <summary>
     /// 作成クラス名
